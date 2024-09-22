@@ -1,0 +1,107 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --thirdary-color: rgb(68, 129, 190);
+    --background-color: #f9f9f9;
+    --text-color: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+nav{
+    margin-bottom: 15px;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+h2{
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 170%;
+}
+
+h3 {
+    color: var(--thirdary-color);
+    margin-bottom: 1rem;
+    font-size: 140%;
+}
+
+.map-container {
+    height: 400px;
+    margin-bottom: 2rem;
+}
+
+.key-figures {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.figure-item {
+    text-align: center;
+}
+
+.figure-item .number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.org-chart {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.org-chart img {
+    width: 100%;
+    height: auto;
+}
